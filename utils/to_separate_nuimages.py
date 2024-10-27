@@ -105,7 +105,7 @@ class Processor(threading.Thread):
 def separate(data_type):
     nu_root = 'data/sets/nuimages/'
     yl_root = 'data/sets/yolo/'
-    data_version = 'v1.0-mini'
+    data_version = f'v1.0-{data_type}'
     data_type = data_type
     processor = 2
 
